@@ -1,8 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fi.insee.test</groupId>
 	<artifactId>maven-test</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>maven-core</module>
@@ -13,8 +14,7 @@
     	<connection>scm:git:ssh://git@github.com/mat59800/maven-test.git</connection>
     	<developerConnection>scm:git:ssh://git@github.com/mat59800/maven-test.git</developerConnection>
     	<url>https://github.com/mat59800/maven-test</url>
-	  <tag>maven-test-0.0.1</tag>
-  </scm>
+	</scm>
 	<build>
 		<plugins>
 			<plugin>
