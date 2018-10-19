@@ -1,0 +1,11 @@
+{
+	"realm": "agents-insee-interne",
+	"auth-server-url": "https://auth.insee.test/auth",
+	"resource": "localhost-web",
+	"credentials": {
+		"secret": "b1837f8f-e7a2-4bbc-b4bf-06a3ad5679c3"
+	},
+	"principal-attribute": "mail",
+	"truststore": "classpath:/insee.ts",
+	"truststore-password": "changeit"
+}
