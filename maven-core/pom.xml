@@ -3,7 +3,7 @@
   <parent>
     <groupId>fi.insee.test</groupId>
     <artifactId>maven-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>maven-core</artifactId>
 </project>
