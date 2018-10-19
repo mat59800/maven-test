@@ -10,6 +10,11 @@
 		<module>maven-batch</module>
 		<module>maven-web</module>
 	</modules>
+	<scm>
+    	<connection>scm:git:ssh://git@github.com/mat59800/maven-test.git</connection>
+    	<developerConnection>scm:git:ssh://git@github.com/mat59800/maven-test.git</developerConnection>
+    	<url>https://github.com/mat59800/maven-test</url>
+	</scm>
 	<build>
 		<plugins>
 			<plugin>
